@@ -150,6 +150,40 @@ button:focus-visible {
     color: rgba(239, 239, 238);
 }
 
+/* =================== HERO SECTION ============================== */
+.hero-content {
+    display: flex;
+    gap: 30px;
+}
+.hero-text {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.hero-title-highlight {
+    color: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+}
+
+.hero-description {
+    font-size: 25px;
+}
+
+.btn_hero {
+    padding: 10px 20px 10px 20px;
+    color: rgba(239, 125, 37);
+    border-image: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+    border-radius: 5px;
+}
+
+.btn_hero:hover {
+    background-image: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+    color: #ffffff;
+}
+
+/* =================== HERO SECTION  END ============================== */
+
+
+
 /* STEPS SECTION */
 
 .steps-container {
