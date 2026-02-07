@@ -91,6 +91,7 @@ button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
+
 /* WALSHAK AND KRYSSIE (TRENDING AUCTION SECTION) */
 /* Auction Card Container */
 
@@ -141,11 +142,21 @@ button:focus-visible {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+/* STEPS SECTION */
 
-.auction-bid {
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    margin: 100px;
+}
+
+.section-header-center {
     display: flex;
     flex-direction: column;
 }
+
 
 .auction-label {
     color: #aaa;
@@ -171,5 +182,45 @@ button:focus-visible {
     color: #fff;
 }
 
+.steps-container .section-label {
+    color: orange;
+}
+
+.steps-container .section-header-center span {
+    font-size: 1.4rem;
+}
+
+.steps-container .section-header-center h2 {
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.steps-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.step-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 320px;
+    background-color: #131316;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.step-card h3 {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.step-card .step-icon {
+    background-color: #32323d;
+    padding: 5px;
+    /* border: 1px solid lightgray; */
+    width: 70px;
+    border-radius: 5px;
+}
 
 
