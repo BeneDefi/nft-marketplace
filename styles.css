@@ -25,7 +25,7 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
+    /* display: flex; */
     place-items: center;
     max-width: 80rem;
     margin-left: auto;
@@ -150,4 +150,98 @@ button:focus-visible {
     width: 70px;
     border-radius: 5px;
 }
+
+
+
+/* BEGIN: John Dakshak */
+/* WALLETS SECTION */
+
+.wallets-section {
+    padding: 0px 6vw;
+}
+
+.wallets-section .container {
+    margin: 40px 40px;
+}
+
+.wallets-section .section-header div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #ec7a08;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wallets-section .section-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.wallets-section .wallets-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.wallets-grid .wallet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111112;
+    border-radius: 5px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.wallets-grid .wallet-card:hover {
+    cursor: pointer;
+    border:1px solid #351d04;
+    background-color: #0c0600;
+} 
+
+.wallets-grid .wallet-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e5e9;
+    font-weight: 600;
+}
+
+.wallets-grid .wallet-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallets-grid .wallet-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wallets-grid .wallet-icon-trust img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-enjin img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-binance img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-coinbase img {
+    width: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* END - John Dakshak */
 
