@@ -539,3 +539,138 @@ button:focus-visible {
 /* END - John Dakshak */
 
 
+/* =========Trending creator section styling */
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.section-label-1{
+    color: orange;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.trending-creators-section{
+    padding: 80px 0;
+    background-color: #242424;
+}
+
+.section-header-with-dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.dropdown-button-1{
+    padding: 10px 20px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid #888888;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 12px;
+}
+
+.dropdown-arrow-1{
+    display: inline-flex;
+    align-items: center;
+}
+
+.creators-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 24px;
+}
+
+.creator-card{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    transition: all;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.creator-card:hover{
+    transform: translateY(-8px);
+    border: 1px solid orange;
+}
+
+.creator-avatar{
+    display: flex;
+    align-items: center;
+}
+
+.creator-avatar-large{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+   border: 3px solid rgb(253, 252, 251);
+}
+
+.creator-avatar-large img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.creator-avatar-large-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 16px;
+   border: 3px solid orange;
+}
+
+.creator-card-name{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.creator-card-badge{
+    background-color: orange;
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.creator-card-price{
+    font-size: 18px;
+    font-weight: 600;
+    color: orange;
+    margin-top: 12px;
+    display: block;
+}
+
+@media (max-width:1024px) {
+    .creators-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width:768px) {
+    .creators-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width:480px) {
+    .creators-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
