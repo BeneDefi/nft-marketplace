@@ -17,7 +17,7 @@ A modern, responsive NFT marketplace landing page built with vanilla HTML and CS
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisitesgit@github.com:BeneDefi/nft-marketplace.git
 
 - Git installed on your computer ([Download Git](https://git-scm.com/downloads))
 - A text editor (VS Code, Sublime Text, etc.)
