@@ -338,3 +338,69 @@ button:focus-visible {
 
 /* END - John Dakshak */
 
+
+/* Footer news letter */
+
+.footer-form{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+    .newsletter-input{
+        height: 30px;
+        width: 250px;
+        margin-top: 10px;
+        background-color: #ffffff;
+        color: rgb(3, 3, 3);
+        text-align: center;
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: orange;
+        
+
+    }
+
+    .footer-mail-btn{
+        height: 35px;
+        width: 257px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        border-radius: 5px;
+        font-size: small;
+        background-color: rgb(255, 157, 0);
+        border-color: rgb(255, 255, 255);
+        border-width: 2px;
+
+    }
+}
+
+.newsletter-input:hover{
+    background-color: rgb(78, 74, 69);
+    color: #ffffff;
+}
+
+.footer-mail-btn:hover{
+    transform: scale(1.1);
+    border-color: #ffa200;
+    background-color: rgb(51, 49, 49);
+    color: #000000;
+
+}
+
+.footer-heading{
+    margin-right: 77px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    color
+}
+
+/* footer news letter end */
