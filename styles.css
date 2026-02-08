@@ -1,4 +1,4 @@
-:root {
+/* :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -25,7 +25,7 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
+    /* display: flex; 
     place-items: center;
     max-width: 80rem;
     margin-left: auto;
@@ -33,7 +33,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     min-height: 100vh;
-}
+/* } */
 
 h1 {
     font-size: 3.2em;
@@ -89,7 +89,100 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.header{
+    background-color: #242424;
+    border-bottom: 1px solid sandybrown;
+}
+
+/* navigation */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.logo a{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(239, 129, 35);
+}
+
+.logo a:hover{
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+.nav-menu{
+    display: flex;
+    gap: 40px;
+}
+.nav-menu a{
+    font-weight: 500;
+    color: rgba(239, 239, 238);
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: rgba(239, 129, 35)
+}
+
+.nav-btn{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color:rgba(239, 129, 35);
+    color: rgba(239, 239, 238);
+}
+
+/* =================== HERO SECTION ============================== */
+.hero-content {
+    display: flex;
+    gap: 30px;
+}
+.hero-text {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.hero-title-highlight {
+    color: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+}
+
+.hero-description {
+    font-size: 25px;
+}
+
+.btn_hero {
+    padding: 10px 20px 10px 20px;
+    color: rgba(239, 125, 37);
+    border-image: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+    border-radius: 5px;
+}
+
+.btn_hero:hover {
+    background-image: linear-gradient(to right, rgba(239, 125, 37), rgba(233, 91, 43) );
+    color: #ffffff;
+}
+
+/* =================== HERO SECTION  END ============================== */
+
+
 
 
 /* WALSHAK AND KRYSSIE (TRENDING AUCTION SECTION) */
@@ -221,4 +314,97 @@ button:focus-visible {
     border-radius: 5px;
 }
 
+
+
+/* BEGIN: John Dakshak */
+/* WALLETS SECTION */
+
+.wallets-section {
+    padding: 0px 6vw;
+}
+
+.wallets-section .container {
+    margin: 40px 40px;
+}
+
+.wallets-section .section-header div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #ec7a08;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wallets-section .section-header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.wallets-section .wallets-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.wallets-grid .wallet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111112;
+    border-radius: 5px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.wallets-grid .wallet-card:hover {
+    cursor: pointer;
+    border:1px solid #351d04;
+    background-color: #0c0600;
+} 
+
+.wallets-grid .wallet-card p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e5e9;
+    font-weight: 600;
+}
+
+.wallets-grid .wallet-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wallets-grid .wallet-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wallets-grid .wallet-icon-trust img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-enjin img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-binance img {
+    width: 50px;
+}
+
+.wallets-grid .wallet-icon-coinbase img {
+    width: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* END - John Dakshak */
 
