@@ -28,7 +28,7 @@ a:hover {
     margin: 0; */
     /* display: flex; 
     place-items: center;
-=======
+
 body { 
 >>>>>>> upstream/main
     max-width: 80rem;
@@ -94,7 +94,7 @@ button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 } 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -391,61 +391,152 @@ button:focus-visible {
 
 
 
-/* WALSHAK AND KRYSSIE (TRENDING AUCTION SECTION) */
+/* WALSHAK (TRENDING AUCTION SECTION) */
+
+/* Card container */
+.auction-cards-grid{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-auction-container{
+    display: flex;
+}
+
+.auction{
+    display: flex;
+}
+
+.create-section{
+    display: flex;
+    gap: 70px;
+}
 
 .auction-card {
-    width: 280px;
-    background-color: #1a1a1a;
-    border-radius: 12px;
-    overflow: hidden;
-    font-family: 'Arial', sans-serif;
-    color: #fff;  
+  width: 260px;
+  border: 1.5px solid #ff7a18;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: sans-serif;
+  color: #fff;
 }
 
-
-
-.auction-card-image img{
-    position: relative;
-    width: 100%;
-    height: 200px;
+.auction-cards {
+  width: 260px;
+  border: 1.5px solid #32323d;
+  border-radius: 12px;
+  padding: 12px;
+  font-family: sans-serif;
+  color: #fff;
+}
+/* Image section */
+.auction-card-image {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
+.auction-card-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Bookmark button (top right) */
+.bookmark-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Timer overlay */
+.auction-timer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(30, 30, 40, 0.9);
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+/* Content area */
 .auction-card-content {
-    padding: 15px 18px;
+  margin-top: 12px;
 }
 
+/* Title and tag */
 .auction-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .auction-title {
-    font-weight: 600;
-    color: #fff;
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.auction-timer {
-    font-size: 0.85rem;
-    color: #ff8c42; 
-    background: rgba(15, 15, 15, 0.3);
-    padding: 2px 6px;
-    border-radius: 6px;
+.auction-status {
+  background: rgba(255, 122, 24, 0.15);
+  color: #ff7a18;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 
+/* Details section */
 .auction-details {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
+
+.auction-label {
+  font-size: 11px;
+  color: #888;
+  display: block;
+}
+
+.auction-price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Button */
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(90deg, #ff7a18, #ff5e00);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+
+/*END  WALSHAK(TRENDING AUCTION SECTION) */
+
+
 /* STEPS SECTION */
 
 .steps-container {
     display: flex;
     flex-direction: column;
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
     margin: 100px;
 }
 
@@ -515,7 +606,6 @@ button:focus-visible {
 .step-card .step-icon {
     background-color: #32323d;
     padding: 5px;
-    /* border: 1px solid lightgray; */
     width: 70px;
     border-radius: 5px;
 }
