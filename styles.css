@@ -154,6 +154,7 @@ button:focus-visible {
 
 .steps-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     /* margin-top: 100px;
     margin-bottom: 100px; */
@@ -163,6 +164,7 @@ button:focus-visible {
 .section-header-center {
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 
 .steps-container .section-label {
@@ -184,29 +186,41 @@ button:focus-visible {
 
 .steps-grid {
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
 .step-card {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
     width: 320px;
-    background-color: #131316;
-    opacity: 0.8;
+    background-color: #242424;
+    opacity: 0.6;
     border-radius: 5px;
 }
 
 .step-card h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: white;
+    margin: 10px 0px;
+}
+
+.step-card p {
+    color: white;
+    font-size: 0.7rem;
+    line-height: 17px;
 }
 
 .step-card .step-icon {
-    background-color: #32323d;
+    background-color: #616161;
     padding: 5px;
     /* border: 1px solid lightgray; */
-    width: 70px;
+    width: 80px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
