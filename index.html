@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Marketplace - Explore The Best NFT World</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -12,7 +13,7 @@
     <!-- HEADER SECTION -->
     <header class="header">
         <div class="container">
-            <nav class="navbar">
+            <nav class="navbar">    
                 <div class="logo">
                     <a href="#" class="logo-link">N</a>
                 </div>
@@ -24,7 +25,7 @@
                     <li class="nav-item"><a href="#" class="nav-link">News</a></li>
                 </ul>
 
-                <button class="btn btn-primary">Connect Wallet</button>
+                <button class="nav-btn">Connect Wallet</button>
             </nav>
         </div>
     </header>
@@ -37,19 +38,19 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">
-                        Explore The Best <span class="hero-title-highlight">NFT World</span>
+                        Explore The Best <br> <span class="hero-title-highlight">NFT World</span>
                     </h1>
                     <p class="hero-description">
                         Collect And Sell Your Extraordinary Artwork.
                     </p>
                     <div class="hero-buttons">
-                        <button class="btn btn-primary">Get Started</button>
-                        <button class="btn btn-secondary">Learn</button>
+                        <button class="btn btn_hero btn-primary">Explore</button>
+                        <button class="btn btn_hero btn-secondary">Upload</button>
                     </div>
                 </div>
 
                 <div class="hero-image">
-                    <div class="hero-character-placeholder"></div>
+                    <img src="./assets/Screenshot_from_2026-02-07_14-50-29-removebg-preview.png" alt="" class="hero-character-placeholder">
                 </div>
             </div>
         </div>
@@ -61,33 +62,48 @@
     <section class="wallets-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">Wallets</span>
+                <div>
+                    <i class="bx bx-minus"></i>
+                    <span class="section-label">Wallets</span>
+                </div>
                 <h2 class="section-title">Wallets We Support</h2>
             </div>
 
             <div class="wallets-grid">
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-alpha"></div>
+                    <div class="wallet-icon wallet-icon-alpha">
+                        <img src="assets/alpha_icon.png" alt="">
+                    </div>
                     <p class="wallet-name">Alpha Wallet</p>
                 </div>
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-metamask"></div>
+                    <div class="wallet-icon wallet-icon-metamask">
+                        <img src="assets/meta_mask_icon.png" alt="">
+                    </div>
                     <p class="wallet-name">Metamask</p>
                 </div>
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-coinbase"></div>
+                    <div class="wallet-icon wallet-icon-coinbase">
+                        <img src="assets/coinbase_icon.jpeg" alt="">
+                    </div>
                     <p class="wallet-name">Coinbase</p>
                 </div>
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-trust"></div>
+                    <div class="wallet-icon wallet-icon-trust">
+                        <img src="assets/trust_wallet_icon.png" alt="">
+                    </div>
                     <p class="wallet-name">Trust Wallet</p>
                 </div>
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-enjin"></div>
+                    <div class="wallet-icon wallet-icon-enjin">
+                        <img src="assets/enjin_icon.png" alt="">
+                    </div>
                     <p class="wallet-name">Enjin Wallet</p>
                 </div>
                 <div class="wallet-card">
-                    <div class="wallet-icon wallet-icon-binance"></div>
+                    <div class="wallet-icon wallet-icon-binance">
+                        <img src="assets/binance_icon.png" alt="">
+                    </div>
                     <p class="wallet-name">Binance Wallet</p>
                 </div>
             </div>
@@ -219,7 +235,7 @@
         <div class="container">
             <div class="section-header-with-filters">
                 <div class="section-header">
-                    <span class="section-label">Trending</span>
+                    <span class="straight-line">&#8213</span> <span class="section-label">Trending</span> 
                     <h2 class="section-title">Trending NFT's</h2>
                 </div>
 
@@ -228,114 +244,201 @@
                     <li class="filter-tab">Art</li>
                     <li class="filter-tab">3D Art</li>
                     <li class="filter-tab">Game</li>
-                    <li class="filter-tab">Trending</li>
-                    <li class="filter-tab">Real Art</li>
+                    <li class="filter-tab">Painting</li>
+                    <li class="filter-tab">Wall Art</li>
                     <li class="filter-tab">Others</li>
                 </ul>
             </div>
-
             <div class="nft-cards-grid">
                 <article class="nft-card">
                     <div class="nft-card-image">
-                        <div class="nft-image-placeholder nft-img-1"></div>
-                        <button class="bookmark-btn"></button>
-                    </div>
-                    <div class="nft-card-header">
-                        <div class="nft-creator">
-                            <div class="creator-avatar creator-avatar-1"></div>
-                            <span class="creator-name">Allison</span>
-                            <span class="creator-badge">Bitasset</span>
+                        <div class="nft-image-placeholder nft-img-1">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-a" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <img src="/assets/trending-nfts-section-image-2.jpg" class="nft-img-1-b" width="667" height="1000" alt="caucasian lady with brown hair on pink shirt">
+                            <img src="/assets/trending-nfts-section-image-3.jpg" class="nft-img-1-c" width="667" height="1000" alt="caucasian lady with brown hair on stripes shirt">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-d" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <p>+5</p>
+                        </div>
+                        <div class="nft-owner-name">
+                            <p class="gray-text">Owner-</p>
+                            <p class="white-text"> @akhil_raj</p>
                         </div>
                     </div>
-                    <div class="nft-card-content">
+                   
+                    <img src="/assets/nft_3.png" class="creator-avatar-1" width="680" height="680" alt="nft photo">
+                    <img src="/assets/heart-icon.png" class="heart-icon" width="32" height="32" alt="heart icon">
+                     <div class="nft-card-content">
                         <div class="nft-info">
-                            <span class="nft-label">Golden Birt</span>
-                            <span class="nft-id">#22269</span>
+                            <p class="nft-bid">Current Bid -</p>
+                            <div class="nft-price-info">
+                                <span class="nft-quantity">4.20 ETH</span>
+                                <span class="nft-price">(USD 20.35)</span>
+                            </div>
                         </div>
-                        <div class="nft-price-info">
-                            <span class="nft-price">$ 20 ETH</span>
-                            <span class="nft-likes">300 Likes</span>
+
+                        <div class="nft-auction-end-date">
+                            <p>Auction Ends In</p>
+                            <div class="hour-mins-time">
+                                <div>
+                                    <h3>28</h3>
+                                    <p>Hrs</p>
+                                </div>
+                                <div>
+                                    <h3>60</h3>
+                                    <p>Mins</p>
+                                </div>
+                                <div>
+                                    <h3>45</h3>
+                                    <p>Sec</p>
+                                </div>
+                            </div>
                         </div>
+                       
                     </div>
-                    <button class="btn btn-primary btn-full">Place Bid</button>
+                    <button class="btn btn-primary btn-transparent">Place Bid<span class="right-arrow">&#8594</span></button>
                 </article>
 
                 <article class="nft-card">
                     <div class="nft-card-image">
-                        <div class="nft-image-placeholder nft-img-2"></div>
-                        <button class="bookmark-btn"></button>
-                    </div>
-                    <div class="nft-card-header">
-                        <div class="nft-creator">
-                            <div class="creator-avatar creator-avatar-2"></div>
-                            <span class="creator-name">Olivia</span>
-                            <span class="creator-badge">Bitasset</span>
+                        <div class="nft-image-placeholder nft-img-1">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-a" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <img src="/assets/trending-nfts-section-image-2.jpg" class="nft-img-1-b" width="667" height="1000" alt="caucasian lady with brown hair on pink shirt">
+                            <img src="/assets/trending-nfts-section-image-3.jpg" class="nft-img-1-c" width="667" height="1000" alt="caucasian lady with brown hair on stripes shirt">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-d" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <p>+5</p>
+                        </div>
+                        <div class="nft-owner-name">
+                            <p class="gray-text">Owner-</p>
+                            <p class="white-text"> @vijaypatil</p>
                         </div>
                     </div>
-                    <div class="nft-card-content">
+                   
+                    <img src="/assets/nft_4.jpg" class="creator-avatar-1" width="794" height="794" alt="nft photo">
+                     <div class="nft-card-content">
                         <div class="nft-info">
-                            <span class="nft-label">Tiger Beast</span>
-                            <span class="nft-id">#22269</span>
+                            <p class="nft-bid">Current Bid -</p>
+                            <div class="nft-price-info">
+                                <span class="nft-quantity">4.20 ETH</span>
+                                <span class="nft-price">(USD 20.35)</span>
+                            </div>
                         </div>
-                        <div class="nft-price-info">
-                            <span class="nft-price">$ 20 ETH</span>
-                            <span class="nft-likes">300 Likes</span>
+
+                        <div class="nft-auction-end-date">
+                            <p>Auction Ends In</p>
+                            <div class="hour-mins-time">
+                                <div>
+                                    <h3>28</h3>
+                                    <p>Hrs</p>
+                                </div>
+                                <div>
+                                    <h3>60</h3>
+                                    <p>Mins</p>
+                                </div>
+                                <div>
+                                    <h3>45</h3>
+                                    <p>Sec</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <button class="btn btn-primary btn-transparent">Place Bid <span class="right-arrow">&#8594</span></button>
+                </article>
+
+
+                <article class="nft-card">
+                    <div class="nft-card-image">
+                        <div class="nft-image-placeholder nft-img-1">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-a" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <img src="/assets/trending-nfts-section-image-2.jpg" class="nft-img-1-b" width="667" height="1000" alt="caucasian lady with brown hair on pink shirt">
+                            <img src="/assets/trending-nfts-section-image-3.jpg" class="nft-img-1-c" width="667" height="1000" alt="caucasian lady with brown hair on stripes shirt">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-d" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <p>+5</p>
+                        </div>
+                        <div class="nft-owner-name">
+                            <p class="gray-text">Owner-</p>
+                            <p class="white-text"> @Jennie_l</p>
                         </div>
                     </div>
-                    <button class="btn btn-primary btn-full">Place Bid</button>
+                   
+                    <img src="/assets/nft_7.jpg" class="creator-avatar-1" width="600" height="600" alt="nft photo">
+                     <div class="nft-card-content">
+                        <div class="nft-info">
+                            <p class="nft-bid">Current Bid -</p>
+                            <div class="nft-price-info">
+                                <span class="nft-quantity">4.20 ETH</span>
+                                <span class="nft-price">(USD 20.35)</span>
+                            </div>
+                        </div>
+                        <div class="nft-auction-end-date">
+                            <p>Auction Ends In</p>
+                            <div class="hour-mins-time">
+                                <div>
+                                    <h3>28</h3>
+                                    <p>Hrs</p>
+                                </div>
+                                <div>
+                                    <h3>60</h3>
+                                    <p>Mins</p>
+                                </div>
+                                <div>
+                                    <h3>45</h3>
+                                    <p>Sec</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <button class="btn btn-primary btn-transparent">Place Bid <span class="right-arrow">&#8594</span></button>
                 </article>
 
                 <article class="nft-card">
                     <div class="nft-card-image">
-                        <div class="nft-image-placeholder nft-img-3"></div>
-                        <button class="bookmark-btn"></button>
-                    </div>
-                    <div class="nft-card-header">
-                        <div class="nft-creator">
-                            <div class="creator-avatar creator-avatar-3"></div>
-                            <span class="creator-name">Brittany</span>
-                            <span class="creator-badge">Bitasset</span>
+                        <div class="nft-image-placeholder nft-img-1">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-a" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <img src="/assets/trending-nfts-section-image-2.jpg" class="nft-img-1-b" width="667" height="1000" alt="caucasian lady with brown hair on pink shirt">
+                            <img src="/assets/trending-nfts-section-image-3.jpg" class="nft-img-1-c" width="667" height="1000" alt="caucasian lady with brown hair on stripes shirt">
+                            <img src="/assets/trending-nfts-section-image-1 .jpg" class="nft-img-1-d" width="714" height="1000" alt="caucasian lady with brown hair">
+                            <p>+5</p>
+                        </div>
+                        <div class="nft-owner-name">
+                            <p class="gray-text">Owner-</p>
+                            <p class="white-text"> @Albe_rt</p>
                         </div>
                     </div>
-                    <div class="nft-card-content">
-                        <div class="nft-info">
-                            <span class="nft-label">Angel Wings</span>
-                            <span class="nft-id">#22269</span>
-                        </div>
-                        <div class="nft-price-info">
-                            <span class="nft-price">$ 20 ETH</span>
-                            <span class="nft-likes">300 Likes</span>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary btn-full">Place Bid</button>
-                </article>
+                   
+                    <img src="/assets/nft_2.png" class="creator-avatar-1" width="900" height="900" alt="nft photo">
 
-                <article class="nft-card">
-                    <div class="nft-card-image">
-                        <div class="nft-image-placeholder nft-img-4"></div>
-                        <button class="bookmark-btn"></button>
-                    </div>
-                    <div class="nft-card-header">
-                        <div class="nft-creator">
-                            <div class="creator-avatar creator-avatar-4"></div>
-                            <span class="creator-name">Jackson</span>
-                            <span class="creator-badge">Bitasset</span>
-                        </div>
-                    </div>
-                    <div class="nft-card-content">
+                     <div class="nft-card-content">
                         <div class="nft-info">
-                            <span class="nft-label">Portrait Lady</span>
-                            <span class="nft-id">#22269</span>
+                            <p class="nft-bid">Current Bid -</p>
+                            <div class="nft-price-info">
+                                <span class="nft-quantity">4.20 ETH</span>
+                                <span class="nft-price">(USD 20.35)</span>
+                            </div>
                         </div>
-                        <div class="nft-price-info">
-                            <span class="nft-price">$ 20 ETH</span>
-                            <span class="nft-likes">300 Likes</span>
+
+                        <div class="nft-auction-end-date">
+                            <p>Auction Ends In</p>
+                            <div class="hour-mins-time">
+                                <div>
+                                    <h3>28</h3>
+                                    <p>Hrs</p>
+                                </div>
+                                <div>
+                                    <h3>60</h3>
+                                    <p>Mins</p>
+                                </div>
+                                <div>
+                                    <h3>45</h3>
+                                    <p>Sec</p>
+                                </div>
+                            </div>
                         </div>
+                       
                     </div>
-                    <button class="btn btn-primary btn-full">Place Bid</button>
+                    <button class="btn btn-primary btn-transparent">Place Bid <span class="right-arrow">&#8594</span></button>
                 </article>
             </div>
-
             <div class="section-cta">
                 <button class="btn btn-secondary">Explore More</button>
             </div>
@@ -346,15 +449,15 @@
     <!-- BEGIN: Kazeem Rosin, Dev Solex, -->
     <!-- STEPS SECTION -->
     <section class="steps-section">
-        <div class="container">
+        <div class="steps-container">
             <div class="section-header section-header-center">
-                <span class="section-label">Steps For Sell & Buy</span>
+                <span class="section-label"><i class='bx bx-minus'></i>Steps For Sell & Buy</span>
                 <h2 class="section-title">Easy Steps To Create And Sell Your NFT</h2>
             </div>
 
             <div class="steps-grid">
                 <div class="step-card">
-                    <div class="step-icon step-icon-1"></div>
+                    <div class="step-icon step-icon-1"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="fill: rgba(241, 152, 9, 1);transform: msFilter"><path d="M14 9h8v6h-8z"></path><path d="M20 3H5C3.346 3 2 4.346 2 6v12c0 1.654 1.346 3 3 3h15c1.103 0 2-.897 2-2v-2h-8c-1.103 0-2-.897-2-2V9c0-1.103.897-2 2-2h8V5c0-1.103-.897-2-2-2z"></path></svg></div>
                     <h3 class="step-title">Setup Your Wallet</h3>
                     <p class="step-description">
                         Once lorem set up on one deared at Cliking,
@@ -364,7 +467,7 @@
                 </div>
 
                 <div class="step-card">
-                    <div class="step-icon step-icon-2"></div>
+                    <div class="step-icon step-icon-2"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="fill: rgba(241, 152, 9, 1);transform: msFilter"><path d="M5 12H4v8a2 2 0 0 0 2 2h5V12H5zm13 0h-5v10h5a2 2 0 0 0 2-2v-8h-2zm.791-5A4.92 4.92 0 0 0 19 5.5C19 3.57 17.43 2 15.5 2c-1.622 0-2.705 1.482-3.404 3.085C11.407 3.57 10.269 2 8.5 2 6.57 2 5 3.57 5 5.5c0 .596.079 1.089.209 1.5H2v4h9V9h2v2h9V7h-3.209zM7 5.5C7 4.673 7.673 4 8.5 4c.888 0 1.714 1.525 2.198 3H8c-.374 0-1 0-1-1.5zM15.5 4c.827 0 1.5.673 1.5 1.5C17 7 16.374 7 16 7h-2.477c.51-1.576 1.251-3 1.977-3z"></path></svg></div>
                     <h3 class="step-title">Create Your Collection</h3>
                     <p class="step-description">
                         Set Up the collection add social link and description and set
@@ -374,7 +477,7 @@
                 </div>
 
                 <div class="step-card">
-                    <div class="step-icon step-icon-3"></div>
+                    <div class="step-icon step-icon-3"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="fill: rgba(241, 152, 9, 1);transform: msFilter"><path d="M19.17 2H4.83A1.79 1.79 0 0 0 3 3.8v16.4A1.79 1.79 0 0 0 4.83 22h14.34A1.8 1.8 0 0 0 21 20.2V3.8A1.8 1.8 0 0 0 19.17 2zM20 20.2a.8.8 0 0 1-.81.8H4.83a.79.79 0 0 1-.8-.8V3.8a.79.79 0 0 1 .8-.8h14.34a.8.8 0 0 1 .81.8z"></path><path d="m7.53 19 2.25-2-2.25-2v4zm5.69-9a12 12 0 0 0-3.75.7V5h-2v8.65L8.88 13a12.3 12.3 0 0 1 4.29-1c1 0 1.25.55 1.25 1.05v6h2V13a2.68 2.68 0 0 0-.8-2.1 3.27 3.27 0 0 0-2.4-.9zM13 8.25h2A5.89 5.89 0 0 0 16.47 5h-2A7.17 7.17 0 0 1 13 8.25z"></path></svg></div>
                     <h3 class="step-title">Add Your NFT's</h3>
                     <p class="step-description">
                         Upload your Work (itmge Video Audio, or
@@ -384,7 +487,7 @@
                 </div>
 
                 <div class="step-card">
-                    <div class="step-icon step-icon-4"></div>
+                    <div class="step-icon step-icon-4"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="fill: rgba(241, 152, 9, 1);transform: msFilter"><path d="M12 15c-1.84 0-2-.86-2-1H8c0 .92.66 2.55 3 2.92V18h2v-1.08c2-.34 3-1.63 3-2.92 0-1.12-.52-3-4-3-2 0-2-.63-2-1s.7-1 2-1 1.39.64 1.4 1h2A3 3 0 0 0 13 7.12V6h-2v1.09C9 7.42 8 8.71 8 10c0 1.12.52 3 4 3 2 0 2 .68 2 1s-.62 1-2 1z"></path><path d="M5 2H2v2h2v17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4h2V2H5zm13 18H6V4h12z"></path></svg></div>
                     <h3 class="step-title">List Them For Sale</h3>
                     <p class="step-description">
                         Choose between Auctions, fixed-price listing,
