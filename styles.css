@@ -1,4 +1,4 @@
-/* :root {
+/*:root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
@@ -23,6 +23,7 @@ a:hover {
     color: #535bf2;
 }
 
+
 body {
     margin: 0;
     /* display: flex; */
@@ -34,6 +35,7 @@ body {
     padding-right: 1rem;
     min-height: 100vh;
 }
+
 
 h1 {
     font-size: 3.2em;
@@ -188,6 +190,7 @@ button:focus-visible {
 
 .steps-container {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     /* margin-top: 100px;
     margin-bottom: 100px; */
@@ -197,6 +200,7 @@ button:focus-visible {
 .section-header-center {
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 
 .steps-container .section-label {
@@ -218,30 +222,43 @@ button:focus-visible {
 
 .steps-grid {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .step-card {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    width: 320px;
-    background-color: #131316;
-    opacity: 0.8;
+    padding: 20px;
+    width: 270px;
+    background-color: #020202;
+    opacity: 0.6;
     border-radius: 5px;
 }
 
 .step-card h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: white;
+    margin: 10px 0px;
+}
+
+.step-card p {
+    color: white;
+    font-size: 0.7rem;
+    line-height: 17px;
 }
 
 .step-card .step-icon {
-    background-color: #32323d;
+    background-color: #0e0d0d;
     padding: 5px;
     /* border: 1px solid lightgray; */
-    width: 70px;
+    width: 80px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 
