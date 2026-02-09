@@ -713,6 +713,65 @@ button:focus-visible {
     display: block;
 }
 
+.footer {
+    background: #242424;
+    padding: 64px 0 24px;
+    border-top: 1px solid orange;
+}
+
+.footer-content {
+    display: grid;
+    text-decoration: none;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 32px;
+    margin-bottom: 48px;
+    margin-left: 200px;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-link {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2;
+    /* transition: color 0.3s; */
+} 
+
+.newsletter-form {
+    display: block;
+    gap: 28px;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 12px 16px;
+    background: #242424;
+    border: 1px solid orange;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 24px;
+    border-top: 1px solid orange;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: gray;
+} 
+
+
 @media (max-width:1024px) {
     .creators-grid{
         grid-template-columns: repeat(2,1fr);
