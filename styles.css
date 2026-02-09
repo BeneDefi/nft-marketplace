@@ -598,7 +598,65 @@ button:focus-visible {
     width: 90px;
     border-radius: 5px;
 }
+/*begin:kryssie*/
+.auction-card {
+  width: 280px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  overflow: hidden;
+  background: black;
+  color: #fff;
+}
 
+
+.auction-card-image {
+  position: relative;
+  height: 180px;
+  background: orange;
+}
+
+
+.bookmark-btn {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+
+.auction-card-content {
+  padding: 14px;
+}
+.auction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auction-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.auction-timer {
+  font-size: 12px;
+  border: 1px solid orange;
+  padding: 4px 10px;
+  border-radius: 20px;
+  color: orange;
+}
+
+
+.auction-details {
+  margin-top: 14px;
+}
+/*end: krys*/
 
 
 /* BEGIN: John Dakshak */
